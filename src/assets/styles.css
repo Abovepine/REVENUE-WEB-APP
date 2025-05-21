@@ -1,0 +1,79 @@
+body {
+  background-color: #121212;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  margin-bottom: 10px;
+}
+
+th,
+td {
+  padding: 12px;
+  text-align: left;
+  border: 1px solid #444;
+}
+
+th {
+  background-color: #1e1e1e;
+}
+
+tr {
+  transition: background-color 0.3s;
+}
+
+tr:hover {
+  background-color: #333;
+}
+
+.selected {
+  background-color: #555;
+  color: #fff;
+}
+
+.revenue {
+  color: #4caf50;
+  font-weight: bold;
+}
+
+button {
+  margin-right: 10px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+td[contenteditable="true"] {
+  background-color: transparent; /* Remove background highlight */
+  outline: none; /* Remove border */
+  cursor: text; /* Show text cursor */
+}
+
+td[contenteditable="true"]:focus {
+  border-bottom: 1px solid #00f; /* Subtle underline to indicate focus */
+}
+
+#revenue-table {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+#how-to-use {
+  margin: 20px 0;
+  padding: 10px;
+  border: 1px solid #444;
+  background-color: #1e1e1e;
+}
+
+#how-to-use h2 {
+  margin-top: 0;
+}
+
+#how-to-use img {
+  max-width: 100%;
+  height: auto;
+}
