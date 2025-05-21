@@ -74,6 +74,7 @@ td[contenteditable="true"]:focus {
 }
 
 #how-to-use img {
-  max-width: 100%;
+  border: none;
+  width: 300px;
   height: auto;
 }
